@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" href="images/Logo_YC.svg" type="image/png">
+    <title>Yvonne Chen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header class="navigation">
+        <div class="logo">
+            <img src="images/Logo_YC.svg" alt="My Logo Yvonne Chen">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li>About</li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="heroImg">
+        <div class="content">
+            <!-- <img src="images/avatar.png" alt="Memoji of me"> -->
+            <!-- <h1>Hi! I'm Yvonne, <div class="word-container">a UI/UX Designer.</div></h1> -->
+            <h1>Hi! I am Yvonne, <span id="wordCarousel"></span></h1>
+            
+            <div class="location">
+                <img src="images/Icon/LocationMarkerOutline.svg"> 
+                <span>Fremont, California</span>
+            </div>
+            <h2>My mission is to <strong>push the boundaries</strong> of UI/UX design, <strong>revolutionizing experiences</strong> through <strong>innovative</strong> and <strong>visionary</strong> approaches. </h2>
+            <div class="resume-button-container">
+                <button class="resume-button">
+                    <img src="images/Icon/Download.svg">
+                    Download Resume
+                </button>
+            </div>
+        </div>
+
+        <section id="skills">
+        <div class="cards-container">
+            <div class="card">
+                <img src="images/Icon/CursorClickOutline.svg" alt="Icon 1">
+                <h3>Crafting Seamless Interactions</h3>
+                <p> With a focus on optimizing user journeys and eliminating friction points, I specialize in transforming complex processes into intuitive and delightful experiences that keep users engaged.</p>
+            </div> 
+            <div class="card">
+                <img src="images/Icon/LightBulbOutline.svg" alt="Icon 2">
+                <h3>Reimagine &amp; Redesign Products</h3>
+                <p> Imagination knows no bounds, and I thrive on envisioning novel possibilities. Let's collaboratively reshape your products, infusing fresh perspectives and breathing new life into their purpose.</p>
+            </div> 
+            <div class="card">
+                <img src="images/Icon/PencilOutline.svg" alt="Icon 3">
+                <h3>Design &amp; Iterate Solutions</h3>
+                <p> Crafting innovative solutions demands a keen eye for refinement. Through iterative design processes, I continuously evolve ideas to meet user needs and create meaningful impact.</p>
+            </div> 
+        </div>
+        </section>
+
+        <!-- <h2>My Work</h2> -->
+        <section id="work">
+        <div class="work-continer">
+            <div class="work-card">
+                <img src="images/Frame 13.svg"> 
+                <div class="right-content">
+                    <h3>Case Study 1</h3>
+                    <p>Short Description</p>
+                    <button class="resume-button">View Case Study</button>
+                </div>
+            </div>
+            <div class="work-card">
+                <img src="images/casestudy2.png"> 
+                <div class="right-content">
+                    <h3>Case Study 2</h3>
+                    <p>Short Description</p>
+                    <button class="resume-button">View Case Study</button>
+                </div>
+            </div>
+            <div class="work-card">
+                <img src="images/MacBook Pro.png"> 
+                <div class="right-content">
+                    <h3>Case Study 1</h3>
+                    <p>Short Description</p>
+                    <button class="resume-button">View Case Study</button>
+                </div>
+            </div>
+        </div>
+        </section>
+    
+    </section>
+
+    <button id="openModalButton"></button>
+    <img src="images/contactmearrow.svg" alt="Contact Me!" class="arrow">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2> Let’s Chat! 👋</h2>
+            <p class="subtitle">I’d love to connect with you. You can get in touch with me through email or sending me a message through <a href="https://www.linkedin.com/in/yvonne-chen-323504175" target="www.linkedin.com/in/yvonne-chen-323504175">LinkedIn.</a></p>
+            <form class="contact-input">
+                <input type="text" class="text-input" placeholder="Your Name">
+                <input type="text" class="text-input" placeholder="Subject">
+                <input type="text" id="text-area" placeholder="Your Message">
+                <!-- <textarea class="text-area-input" placeholder="Your Message"></textarea> -->
+                <!-- <input type="email" placeholder="Your Email"> -->
+                <button type="submit" class="resume-button" > Submit</button>
+            </form>
+            <!-- Modal content goes here -->
+        </div>
+    </div>
+
+
+    <footer>
+        <!-- logo and pages left -->
+        <div class="footer-left">
+            <img src="images/Logo_YC.svg" alt="My Logo Yvonne Chen">
+            <nav class="navigation">
+                <ul>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+       
+        <!-- copyright middle -->
+        <div class="copyright">
+            <img src="images/Icon/copyright.svg">
+            <span>2023 all rights reserved.</span>
+        </div>
+        <!-- connect right, linkedin and mail -->
+        <div class="connect">
+            <span>Let's Connect!</span>
+            <img src="images/Icon/Linkedin.svg">
+            <img src="images/Icon/Mail.svg">
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+<script src="main.js"></script>
+
+</html>
